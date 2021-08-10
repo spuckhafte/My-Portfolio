@@ -4,7 +4,7 @@
 }
 #card:hover{
     transition: 0.3s;
-    box-shadow: 10px 10px #454545;
+    box-shadow: -5px -5px ;
     color: wheat;
 }
 
@@ -12,11 +12,13 @@
 	transition: 0.3s;
 	position: relative;
 	border-radius: 15px;
-	
+	box-shadow: -2px -3px black;
 }
 #img:hover{
 	transition: 0.3s;
-	border-radius: 30px;
+	width: 104%;
+	height: 104%;
+	box-shadow: -10px -15px black;
 }
 
 #text{
@@ -24,6 +26,7 @@
 }
 #text:hover{
 	transition: 0.3s;
-	font-size: larger;
-	cursor: pointer
+	cursor: pointer;
+	opacity: 80%;
+
 }
