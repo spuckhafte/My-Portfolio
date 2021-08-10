@@ -1,0 +1,29 @@
+#card{
+    transition: 0.3s;
+	position: relative;
+}
+#card:hover{
+    transition: 0.3s;
+    box-shadow: 10px 10px #454545;
+    color: wheat;
+}
+
+#img{
+	transition: 0.3s;
+	position: relative;
+	border-radius: 15px;
+	
+}
+#img:hover{
+	transition: 0.3s;
+	border-radius: 30px;
+}
+
+#text{
+	transition: 0.3s;
+}
+#text:hover{
+	transition: 0.3s;
+	font-size: larger;
+	cursor: pointer
+}
